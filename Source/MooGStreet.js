@@ -1,19 +1,18 @@
 /*
- ---
- description: A plugin to create Street View div with a single row comand using Mootools and Google API.
+---
+description: A plugin to create Street View div with a single row comand using Mootools and Google API.
  
- license: MIT-style
+license: MIT-style
  
- authors:
- - Nunzio Fiore (http://moog.moonkiki.com)
+authors:
+- Nunzio Fiore (http://moog.moonkiki.com)
  
- requires:
- - Element
- - String
+requires:
+- Element
  
- provides: [MooGStreet]
- ...
- */
+provides: [MooGStreet]
+...
+*/
 var MooGStreet = new Class({
 
     Implements: [Options, Events],
