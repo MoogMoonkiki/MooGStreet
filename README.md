@@ -1,5 +1,5 @@
-YoutubePL
-=========
+MooGStreet
+==========
 
 ![Screenshot](http://moog.moonkiki.com/MooG/plugin/MooGStreet/MooGStreet.png)
 
