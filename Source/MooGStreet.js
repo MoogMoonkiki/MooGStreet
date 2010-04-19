@@ -1,6 +1,6 @@
 /*
  ---
- description: A plugin to ... using Mootools and Google API.
+ description: A plugin to create Street View div with a single row comand using Mootools and Google API.
  license: MIT-style
  authors:
  - Nunzio Fiore (http://moog.moonkiki.com)
