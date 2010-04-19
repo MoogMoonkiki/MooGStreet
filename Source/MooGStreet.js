@@ -6,12 +6,8 @@
  - Nunzio Fiore (http://moog.moonkiki.com)
  requires:
  - Element
- - Elements.from
- - Element.Style
- - Element.Dimenstions
  - String
- - Array
- provides: [YoutubePL]
+ provides: [MooGStreet]
  ...
  */
 var MooGStreet = new Class({
