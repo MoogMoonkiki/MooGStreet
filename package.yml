@@ -1,7 +1,7 @@
-name: YoutubePL
+name: MooGStreet
 author: Moogkiki
 category: Media
-tags: [widgets, youtube, google api, interface]
-#docs: http://moog.moonkiki.com/2010/03/28/a-youtube-playlist/
-#demo: http://moog.moonkiki.com/MooG/plugin/YoutubePL/youtubePLDemo.html
+tags: [widgets, google street view, google api, interface]
+#docs: http://moog.moonkiki.com/2010/04/19/moogstreet-is-near-to-the-forge
+#demo: http://moog.moonkiki.com/MooG/plugin/MooGStreet/Source/moogStreetDemo.html
 #current: 0.1

@@ -1,55 +1,44 @@
 YoutubePL
 =========
 
-![Screenshot](http://moog.moonkiki.com/wp-content/uploads/2010/03/youtubepl2.png)
+![Screenshot](http://moog.moonkiki.com/MooG/plugin/MooGStreet/MooGStreet.png)
 
-Include a script containing the class YoutubePL written using Mootools and Google API and you will bind your combobox and a div to the plugin.
-On the same page you can create multiple pleaylist.  
-Demo is here: <a href="http://moog.moonkiki.com/MooG/plugin/YoutubePL/youtubePLDemo.html">Demo 1 e 2 of YoutubePL</a>
+Include a script containing the class MooGStreet written using Mootools and Google Street View API and you will bind your div to the plugin.
+On the same page you can create multiple street view layer.  
+Demo is here: <a href="http://moog.moonkiki.com/MooG/plugin/MooGStreet/Source/moogStreetDemo.html">Demo showing Rome and Paris</a>
 
 How to use
 ----------
 
-Include Mootools 1.4 with Elements.from more at least. Inlude Google API and charge SWF api in this way:
+Include Mootools 1.4 core. Inlude Google API and charge Google Map api and your <a href="http://code.google.com/intl/it-IT/apis/maps/signup.html">key generated from Google here </a> in this way:
 
-	<script src="http://www.google.com/jsapi" type="text/javascript">
-        </script>
-        <script>
-            google.load("swfobject", "2.1");
-        </script>
+			<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAj8zliP7718bYZeNi0dt_UxS0MebhigwuOeAuwGtwZq0Oxln2wBSQCO3rkDsw2AOjW9whN3RUHGYEsQ"></script>
 
 
-Then include YoutubePL script:
 
-        <script src="YoutubePL.js" type="text/javascript">
+Then include MooGStreet script:
+
+        <script src="MooGStreet.js" type="text/javascript">
         </script>
 
-You can choose two way for use YoutubePL. First one is to link your YoutubePL instance to a div and a select with youtube video's list. Second one is to link YoutubePL only to a div and giive an array of videos tio the constructor.
+Link your MooGStreet instance to a div and a city in this way:
 
 
-	var ypl = new YoutubePL({
-            select: 'videoSelection',
-            videoContainer: 'videoDiv'
-        });
-        var ypl2 = new YoutubePL({
-            videoContainer: 'videoDiv2',
-            videos: ['2TaclzGjmm8', 'vorxYDEtuRY', '9mO5cKO7toE']
-        });
-        
-        var runDemo = function(){
-            ypl.run();
-            ypl2.run();
-        }
+	var mgs = new MooGStreet({streetContainer:'moogDiv2',city:'Paris'});
+	                           
+
         
 
-At the end run your ypl instances:
+At the end run your mgs instances:
 
-	google.setOnLoadCallback(runDemo());
+	mgs.run();
+
 
 
 More info
 -----------------
 
-You can find more info at <a href="http://moog.moonkiki.com">http://moog.moonkiki.com</a>
+You can find more info at <a href="http://moog.moonkiki.com
+">http://moog.moonkiki.com</a>
 
-Demo is here: <a href="http://moog.moonkiki.com/MooG/plugin/YoutubePL/youtubePLDemo.html">demo youtubepl</a>
+Demo is here: <a href="http://moog.moonkiki.com/MooG/plugin/MooGStreet/Source/moogStreetDemo.html">Demo showing Rome and Paris</a>
